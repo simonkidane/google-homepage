@@ -1,0 +1,140 @@
+html {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 97%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 91vh;
+}
+
+#google {
+    color: cornflowerblue;
+    font-family: -apple-system, 'Courier New', Courier, monospace;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    display: inline;
+}
+
+.gmail-images-pp {
+    float: right;
+}
+
+#left-buttons {
+    width: 5%;
+}
+
+#left-buttons-bottom {
+    margin: 5px 0px 0px -20px;
+    width: 9%;
+}
+
+#right-buttons {
+    margin: 0px 0px 0px 55px;
+    width: 15px;
+}
+
+#account-pic {
+    margin-top: -5px;
+}
+
+#right-buttons-bottom {
+    float: right;
+    margin: 5px 4px 0px -25px;
+    width: 95px;
+}
+
+#center-button {
+    margin-top: 5px;
+    width: 50%;
+}
+
+#account-pic {
+    border-radius: 20px;
+}
+
+#apps-pic {
+    width: 45px;
+    height: 20px;
+}
+
+a {
+    font-family: Roboto, -apple-system, sans-serif;
+    font-size: 14px;
+    color: #666464;
+    text-decoration: none;
+    display: block;
+}
+
+a:visited {
+    color: #000000;
+}
+
+#googleappspic:hover {
+    background-color: gray;
+}
+
+.search {
+    text-align: center;
+}
+
+#searchbar {
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 30px;
+    width: 35%;
+    height: 1px;
+    outline: none;
+    font-size: 15px;
+    padding: 20px 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Vector_search_icon.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+    background-position-x: 3%;
+    background-position-y: 55%;
+}
+
+.searcharea {
+    margin-top: 60px;
+    height: 50vh;
+}
+
+input:matches(:hover, :focus) {
+    box-shadow: 0px 0px 8px #d4d4d4;
+}
+
+button {
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(248, 249, 250);
+    border: none;
+}
+
+button:hover {
+    box-shadow: 0px 1px 2px rgb(185, 185, 185);
+}
+
+#footer-links {
+    color: rgb(255, 0, 0);
+}
+
+footer {
+    position: fixed;
+    color: rgb(30, 60, 228);
+    background-color: rgb(242, 242, 242);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+}
